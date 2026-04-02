@@ -10,7 +10,7 @@
       "cardNumber": "4111111111111111",
       "cardHolder": "KATE BROWN",
       "expiryDate": "2027-12-31",
-      "paymentSystem": "VISA"
+      "paymentSystem": "CARD_PAYMENT_SYSTEM_VISA"
     },
     {
       "id": "33333333-dddd-4eee-8fff-444444444444",
@@ -22,7 +22,7 @@
       "cardNumber": "5500000000000004",
       "cardHolder": "KATE BROWN",
       "expiryDate": "2028-06-30",
-      "paymentSystem": "MASTERCARD"
+      "paymentSystem": "CARD_PAYMENT_SYSTEM_MASTERCARD"
     }
   ]
 }
