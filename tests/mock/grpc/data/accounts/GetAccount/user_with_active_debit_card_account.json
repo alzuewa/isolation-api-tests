@@ -1,0 +1,9 @@
+{
+  "account": {
+    "id": "bbaf6357-177c-416c-8096-3d06937157a8",
+    "type": "ACCOUNT_TYPE_DEBIT_CARD",
+    "status": "ACCOUNT_STATUS_ACTIVE",
+    "userId": "e56fcbd4-dc23-4e20-95eb-922ab8886143",
+    "balance": -15230.75
+  }
+}

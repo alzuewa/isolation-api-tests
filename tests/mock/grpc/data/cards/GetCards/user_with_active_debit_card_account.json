@@ -1,0 +1,29 @@
+
+{
+  "cards": [
+    {
+      "id": "9441d479-ac30-4ea6-a469-e3db8dcc0ea9",
+      "pin": "3333",
+      "cvv": "987",
+      "type": "CARD_TYPE_VIRTUAL",
+      "status": "CARD_STATUS_ACTIVE",
+      "accountId": "bbaf6357-177c-416c-8096-3d06937157a8",
+      "cardNumber": "5555111111111111",
+      "cardHolder": "MARK SMITH",
+      "expiryDate": "2029-09-30",
+      "paymentSystem": "CARD_PAYMENT_SYSTEM_VISA"
+    },
+    {
+      "id": "dda95f49-01a1-44e8-a955-fddd7de4efda",
+      "pin": "8888",
+      "cvv": "654",
+      "type": "CARD_TYPE_PHYSICAL",
+      "status": "CARD_STATUS_ACTIVE",
+      "accountId": "bbaf6357-177c-416c-8096-3d06937157a8",
+      "cardNumber": "7777000000000004",
+      "cardHolder": "MARK SMITH",
+      "expiryDate": "2030-01-31",
+      "paymentSystem": "CARD_PAYMENT_SYSTEM_MASTERCARD"
+    }
+  ]
+}
