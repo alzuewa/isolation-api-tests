@@ -26,6 +26,6 @@ def build_http_test_headers(context: RequestContext) -> dict[str, str]:
     """
     Translates RequestContext into HTTP headers.
 
-    `x-test-scenario` header describes which mock model have to be used.
+    `x-test-scenario` header describes which mock model has to be used.
     """
     return {'x-test-scenario': context.scenario}
