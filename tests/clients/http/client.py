@@ -46,6 +46,7 @@ def build_http_test_client(
     logger_event_hook = HTTPLoggerEventHook(logger=logger)
 
     return Client(
+        base_url=str(config.url),
         timeout=config.timeout,
         event_hooks={
             'request': [logger_event_hook.request],
