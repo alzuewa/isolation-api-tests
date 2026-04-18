@@ -111,7 +111,7 @@ def assert_get_account_details_response_user_with_active_debit_card_account(
             ),
             cards=[
                 CardTestSchema(
-                    id='9441d479-ac30-4ea6-a469-e3db8dcc0ea',
+                    id='9441d479-ac30-4ea6-a469-e3db8dcc0ea9',
                     pin='3333',
                     cvv='987',
                     type=CardTestType.VIRTUAL,
