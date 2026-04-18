@@ -60,7 +60,7 @@ jobs:
           path: gh-pages
 
       - name: Download Allure results
-        uses: actions/download-artifact@v6
+        uses: actions/download-artifact@v8
         with:
           name: allure-results
           path: allure-results
