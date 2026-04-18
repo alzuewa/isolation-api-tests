@@ -43,11 +43,11 @@ def assert_operation_from_event(
     assert_equal(actual.type, MAP_OPERATION_TYPE_TO_PROTO[expected.type], 'type')
     assert_equal(actual.status, MAP_OPERATION_STATUS_TO_PROTO[expected.status], 'status')
     assert_equal(actual.amount, expected.amount, 'amount')
-    assert_equal(actual.user_id, expected.user_id, 'user_id')
-    assert_equal(actual.card_id, expected.card_id, 'card_id')
+    assert_equal(actual.user_id, str(expected.user_id), 'user_id')
+    assert_equal(actual.card_id, str(expected.card_id), 'card_id')
     assert_equal(actual.category, expected.category, 'category')
     assert_equal(actual.created_at, to_proto_test_datetime(expected.created_at), 'created_at')
-    assert_equal(actual.account_id, expected.account_id, 'account_id')
+    assert_equal(actual.account_id, str(expected.account_id), 'account_id')
 
 
 @allure.step('Check operation from model')
@@ -62,15 +62,15 @@ def assert_operation_from_model(
     """
     logger.info('Check operation from model')
 
-    assert_equal(actual.id, expected.id, 'id')
+    assert_equal(actual.id, str(expected.id), 'id')
     assert_equal(actual.type, MAP_OPERATION_TYPE_TO_PROTO[expected.type], 'type')
     assert_equal(actual.status, MAP_OPERATION_STATUS_TO_PROTO[expected.status], 'status')
     assert_equal(actual.amount, expected.amount, 'amount')
-    assert_equal(actual.user_id, expected.user_id, 'user_id')
-    assert_equal(actual.card_id, expected.card_id, 'card_id')
+    assert_equal(actual.user_id, str(expected.user_id), 'user_id')
+    assert_equal(actual.card_id, str(expected.card_id), 'card_id')
     assert_equal(actual.category, expected.category, 'category')
     assert_equal(actual.created_at, to_proto_test_datetime(expected.created_at), 'created_at')
-    assert_equal(actual.account_id, expected.account_id, 'account_id')
+    assert_equal(actual.account_id, str(expected.account_id), 'account_id')
 
 
 @allure.step('Check get operations response from events')
