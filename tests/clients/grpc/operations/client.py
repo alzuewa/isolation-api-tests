@@ -50,7 +50,7 @@ class OperationsGRPCTestClient(GRPCTestClient):
         return self.get_operations_api(request)
 
 
-def build_gateway_grpc_test_client() -> OperationsGRPCTestClient:
+def build_operations_grpc_test_client() -> OperationsGRPCTestClient:
     channel = build_grpc_test_channel(
         logger=get_test_logger('OPERATIONS_GRPC_TEST_CLIENT'),
         config=test_settings.operations_grpc_client,
